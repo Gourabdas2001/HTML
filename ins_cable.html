@@ -1,0 +1,115 @@
+<html>
+
+<head>
+    <title>Instrument.com</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .contaner {
+            width: 1000px;
+            color: rgb(89, 50, 205);
+            border: 3px solid rgb(8, 8, 83);
+            font-size: 20px;
+            margin: 13px auto;
+            background: rgb(171, 171, 240);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border-radius: 3px;
+
+        }
+
+        .inst {
+            border: 3px solid burlywood;
+            background-color: beige;
+            padding: 13px 13px;
+            margin: 13px 13px;
+            width: 500px;
+        }
+
+        #transmitter {
+
+            background-image: url("data:image/jpeg;base64,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");
+            background-repeat: no-repeat;
+            background-position: center center;
+            float: left;
+            width: 45%;
+        }
+
+        #tr {
+            background-image: url("https://www.optronix.in/demos/Trans-receiver.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            float: right;
+            width: 45%;
+        }
+
+        #or {
+            background-image: url("https://www.optronix.in/demos/optical-node-group.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            clear: both;
+            width: 98%;
+            height: 200px;
+
+
+        }
+
+        #amp {
+            background-image: url("https://www.optronix.in/demos/amplidier-grup.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            clear: both;
+            width: 98%;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contaner">
+        <h1>instrument</h2>
+            <div id="transmitter" class="inst">
+                <h3>TRANSMITTER</h3>
+                <p>This laser transmitter is important equipment to built CATV HFC network. It is mainly used for long
+                    distance optical fiber transmission of television signal, digital TV signal telephone voice signal
+                    and
+                    data. High performance DFB laser , we select famous brand from the international market for our
+                    products
+                    as light source</p>
+            </div>
+            <div id="tr" class="inst">
+                <h3>TRANSRECIEVER</h3>
+                <p>Trans-receiver is simply a combination of both optical transmitter and optical receiver. It can
+                    achieve
+                    RF output of desired level of optical signal (+2 ~ -8dBm). Same time we can get optical power of
+                    desired
+                    level (9 dBm or 10 dBm). It uses two adaptors, one as a optical in and one as a optical out.
+                    Aluminum
+                    alloy body is used in outdoors trans-receivers.</p>
+
+            </div>
+            <div id="or" class="inst">
+                <h3>OPTICAL RECEIVER(NODE)</h3>
+                <p>Two fiber input node can be used for two separate optical input device for backup based on plenty of
+                    experiences about CATV HFC network ooptical fiber transmission equipment, we developed DI-155 and
+                    DI-165A series field receiver, two input optical receiver. It is mainly used in long-distance
+                    optical
+                    fiber transmission of TV image signal,digital TV signal.</p>
+
+            </div>
+            <div id="amp" class="inst">
+                <h3>AMPLIFIER</h3>
+                <p>Cable television is a system of delivering television programming to paying subscribers via radio
+                    frequency (RF) signals transmitted through coaxial cables or, in the 2010s, light pulses through
+                    fiber-optic cables. This contrasts with broadcast television, in which the television signal is
+                    transmitted over the air by radio waves and received by a television antenna attached to the
+                    television.
+
+                </p>
+            </div>
+
+    </div>
+</body>
+
+</html>

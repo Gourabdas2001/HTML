@@ -1,0 +1,306 @@
+<html>
+
+<head>
+    <title>seema cable.com</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background: rgb(236, 227, 227);
+            margin: 10px 10px;
+        }
+
+        #ttt {
+            color: rgb(18, 3, 62);
+            text-align: center;
+            font-style: italic;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 60px;
+            line-height: 1em;
+            font-weight: bold;
+            width: 600px;
+            /* background-color: aqua; */
+            height: 75PX;
+            /*width: 400px;*/
+            /*border-width:3px;
+                border-color: rgb(0, 128, 255);
+                border-style: solid;*/
+            border: 3px solid rgb(0, 128, 255);
+            border-radius: 11px;
+            margin: 20px auto;
+            padding: 10px 15px;
+            /* background-image: url("https://5.imimg.com/data5/YE/OF/KK/SELLER-47330327/tv-services-500x500.jpg"); */
+            background-repeat: no-repeat;
+            background-position: center center;
+
+
+        }
+
+        #press {
+            font-size: 15px;
+            border: 2px solid dimgray;
+            padding: 5px 5px;
+            margin: 15px auto;
+            cursor: pointer;
+        }
+
+        #press:hover {
+            background: gray;
+        }
+
+        .add {
+            color: #bc1c94;
+            font-size: 1cm;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            line-height: 0.8em;
+            /* border-top: 2px solid blue; */
+            /* border-bottom: 2px solid rebeccapurple; */
+            /* border-left: 2px solid rebeccapurple; */
+            /* border-right: 2px solid blue; */
+            width: 600px;
+            margin: auto;
+            padding: 10px;
+            border-top-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+            border-top-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+            height: 30px;
+
+        }
+
+        #pag {
+            color: blue;
+            font-size: 25px;
+            /* 1/96 of inch*/
+            font-family: 'Times New Roman', Times, serif;
+            /*it is used to comtrol the style of text*/
+            line-height: 2em;
+        }
+
+        .bgprimery {
+            background-color: rgb(72, 0, 255);
+        }
+
+        span {
+            color: rgb(210, 89, 96);
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        #ui {
+            font-size: 50px;
+            font-weight: bold;
+            font-style: italic;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        a {
+            background-color: lightblue;
+            padding: 5px;
+            text-decoration: dashed;
+            margin: auto;
+        }
+
+        a:hover {
+            background: yellow;
+            border: 2px solid blue;
+        }
+
+        a:visited {
+            background: pink;
+        }
+
+        #back {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            width: 48%;
+            height: 370px;
+            color: rgb(203, 19, 59);
+            text-align: justify;
+            border: 2px solid darkblue;
+            padding: 20px 25px;
+            margin: 15px auto;
+            display: inline-block;
+            float: left;
+            background-image: url("https://beonair.com/wp-content/uploads/2018/05/starting-your-own-tv-netwrok_be-on-air-media.jpg");
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        #dist {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            width: 48%;
+            height: 370px;
+            display: inline-block;
+            color: rgb(41, 19, 203);
+            text-align: justify;
+            border: 2px solid darkblue;
+            padding: 20px 25px;
+            margin: 15px auto;
+            float: right;
+            background-image: url("https://www.indcareer.com/files/Cable%20Television%20Operator.jpg");
+            background-repeat: no-repeat;
+            background-position: center center;
+
+        }
+
+        #dist:hover {
+            background: rgb(168, 168, 223);
+            cursor: pointer;
+            /* text-align: center; */
+            border-radius: 50px;
+        }
+
+        #back:hover {
+            background: rgb(168, 168, 223);
+            cursor: pointer;
+            /* text-align: center; */
+            border-radius: 50px;
+
+        }
+
+        #km {
+            text-decoration: none;
+            border: 1px solid burlywood;
+            padding: 5px;
+            background-color: rgb(252, 252, 165);
+            height: 10px;
+        }
+
+        #km:hover {
+            background: rgb(186, 222, 98);
+            border: 1px solid yellow;
+            color: antiquewhite;
+        }
+
+        #press {
+            clear: both;
+        }
+
+        .kl {
+
+            padding: 25px 20px;
+            margin: 15px auto;
+            height: 400px;
+
+        }
+
+        .navbar {
+            background: rgb(62, 59, 59);
+            border-radius: 15px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+
+
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            background: rgb(237, 226, 226);
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .navbar li a:hover {
+            color: blue;
+        }
+
+        .search {
+            float: right;
+            color: white;
+            padding: 5px 20px;
+            width: 250px;
+        }
+
+        .search input {
+            padding: 5px 8px;
+            cursor: pointer;
+            border: 2px solid black;
+            border-radius: 2px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="D:\HTML\seema-cable.html" target="_blank">Home</a></li>
+                <li><a href="D:\HTML\ins_cable.html" target="_blank">About</a></li>
+                <li><a href="D:\HTML\application _form.html" target="_blank">services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <div class="search">
+                    <input type="text" id="search" class="search" placeholder="search website">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <h3 id="ttt">SEEMA CABLE</h3>
+    <p class="add">Hatgobindapur,Purba Bardhaman</p>
+
+    <!-- <img src="https://media.istockphoto.com/photos/media-technologies-concept-picture-id140054736?k=20&m=140054736&s=612x612&w=0&h=BniZJOTa42uNM6coTntpNQ4bCf9ltbKRfP3wwKlkzQg="> -->
+    <p id="pag">This is a one of the best cable tv network in West Bengal.We provide <span>Good and Quality</span>
+        service .
+    </p>
+    <div class="kl">
+        <div id="back">
+            <h3>Cable television</h3>
+            <p id="sh">Cable television is a system of delivering television programming to consumers via radio frequency (RF)
+                signals transmitted through coaxial cables, or in more recent systems, light pulses through fibre-optic
+                cables.
+                This contrasts with broadcast television (also known as terrestrial television), in which the television
+                signal
+                is transmitted over-the-air by radio waves and received by a television antenna attached to the
+                television;
+                or
+                satellite television, in which the television signal is transmitted over-the-air by radio waves from a
+                communications satellite orbiting the Earth, and received by a satellite dish antenna on the roof. FM
+                radio
+                programming, high-speed Internet, telephone services, and similar non-television services may also be
+                provided
+                through these cables.
+                
+            <!-- <a href="https://en.wikipedia.org/wiki/Cable_television#:~:text=Cable%20television%20is%20a%20system,pulses%20through%20fibre%2Doptic%20cables."
+            target="_blank" id="km">Know more</a> -->
+           
+        </div>
+        <div id="dist">
+            <h3>Distribution</h3>
+            <p>To receive cable television at a given location, cable distribution lines must be available on the local
+                utility poles or underground utility lines. Coaxial cable brings the signal to the customer's building
+                through a service drop, an overhead or underground cable. If the subscriber's building does not have a
+                cable
+                service drop, the cable company will install one. The standard cable used in the U.S. is RG-6, which has
+                a
+                75 ohm impedance, and connects with a type F connector. The cable company's portion of the wiring
+                usually
+                ends at a distribution box on the building exterior, and built-in cable wiring in the walls usually
+                distributes the signal to jacks in different rooms to which televisions are connected</p>
+            <a href="https://en.wikipedia.org/wiki/Cable_television#:~:text=Cable%20television%20is%20a%20system,pulses%20through%20fibre%2Doptic%20cables."
+                target="_blank" id="km">Know more</a>
+               
+        </div>
+        
+    </div>
+    <button id="press">contact us</button>
+
+    <!-- <a id="ui" href="D:\HTML\application _form.html"><u id="ui">click here for new conection</u></a> -->
+
+</body>
+
+</html>
